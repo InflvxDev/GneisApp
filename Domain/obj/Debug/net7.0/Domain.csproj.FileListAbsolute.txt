@@ -1,0 +1,11 @@
+c:\Users\Sebastian Ochoa\Documents\Gneis\GneisApi\Domain\bin\Debug\net7.0\Domain.deps.json
+c:\Users\Sebastian Ochoa\Documents\Gneis\GneisApi\Domain\bin\Debug\net7.0\Domain.dll
+c:\Users\Sebastian Ochoa\Documents\Gneis\GneisApi\Domain\bin\Debug\net7.0\Domain.pdb
+c:\Users\Sebastian Ochoa\Documents\Gneis\GneisApi\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Sebastian Ochoa\Documents\Gneis\GneisApi\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+c:\Users\Sebastian Ochoa\Documents\Gneis\GneisApi\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+c:\Users\Sebastian Ochoa\Documents\Gneis\GneisApi\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+c:\Users\Sebastian Ochoa\Documents\Gneis\GneisApi\Domain\obj\Debug\net7.0\Domain.dll
+c:\Users\Sebastian Ochoa\Documents\Gneis\GneisApi\Domain\obj\Debug\net7.0\refint\Domain.dll
+c:\Users\Sebastian Ochoa\Documents\Gneis\GneisApi\Domain\obj\Debug\net7.0\Domain.pdb
+c:\Users\Sebastian Ochoa\Documents\Gneis\GneisApi\Domain\obj\Debug\net7.0\ref\Domain.dll
