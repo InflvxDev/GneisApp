@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QqpODeGpISw7cvGA4X4L+Fq/wIDh6CUFi6knBBjV0oqKC3QAgQPUj5AuItrXIY5zQkWNOmlan1FV1vBkM8udsw==",
+  "dgSpecHash": "kYSTgxbBQtvTdSZeqPvmQG/CgHUGwDqc9g4yINkxbIdi2LJ6Ul/Z7CYmzZC13TkQCD74qyF3pnigZh2AaGqIdA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "c:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

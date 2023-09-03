@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Web\\Web.csproj": {}
+    "c:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Web\\Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Web\\Web.csproj": {
+    "c:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Web\\Web.csproj",
+        "projectUniqueName": "c:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "C:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Web\\Web.csproj",
+        "projectPath": "c:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Web\\Web.csproj",
         "packagesPath": "C:\\Users\\Sebastian Ochoa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Web\\obj\\",
+        "outputPath": "c:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sebastian Ochoa\\AppData\\Roaming\\NuGet\\NuGet.Config",
