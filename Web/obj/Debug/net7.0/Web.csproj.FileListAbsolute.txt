@@ -42,3 +42,5 @@ C:\Users\Sebastian Ochoa\Documents\Gneis\GneisApi\Web\bin\Debug\net7.0\Infrastru
 C:\Users\Sebastian Ochoa\Documents\Gneis\GneisApi\Web\bin\Debug\net7.0\Application.pdb
 C:\Users\Sebastian Ochoa\Documents\Gneis\GneisApi\Web\bin\Debug\net7.0\Infrastructure.pdb
 C:\Users\Sebastian Ochoa\Documents\Gneis\GneisApi\Web\bin\Debug\net7.0\Domain.pdb
+C:\Users\Sebastian Ochoa\Documents\Gneis\GneisApi\Web\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\Sebastian Ochoa\Documents\Gneis\GneisApi\Web\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

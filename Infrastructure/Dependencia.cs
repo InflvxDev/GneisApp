@@ -9,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Infrastructure.Repositories.Contracts;
 using Infrastructure.Repositories;
+using Infrastructure.Utility;
 
 namespace Infrastructure
 {
@@ -22,6 +23,8 @@ namespace Infrastructure
 
             services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped<IReservaRepository, ReservaRepository>();
+
+            services.AddAutoMapper(typeof(AutoMapperProfile));
         }
 
     }
