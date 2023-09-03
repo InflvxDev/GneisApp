@@ -42,7 +42,7 @@ namespace Infrastructure.Repositories
                 }
                 catch
                 {
-                    transaction.RollbackAsync();
+                    await transaction.RollbackAsync();
                     throw;
 
                 }
