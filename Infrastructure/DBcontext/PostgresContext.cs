@@ -5,7 +5,7 @@ using Domain.Entities.Supabase;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace Domain;
+namespace Infrastructure.DBcontext;
 
 public partial class PostgresContext : DbContext
 {
@@ -46,7 +46,7 @@ public partial class PostgresContext : DbContext
 
     public virtual DbSet<Migration> Migrations { get; set; }
 
-    public virtual DbSet<Entities.Supabase.Object> Objects { get; set; }
+    public virtual DbSet<Domain.Entities.Supabase.Object> Objects { get; set; }
 
     public virtual DbSet<RefreshToken> RefreshTokens { get; set; }
 
@@ -72,10 +72,7 @@ public partial class PostgresContext : DbContext
 
     public virtual DbSet<Usuario> Usuarios { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseNpgsql("Host=db.scejnpdxtjdjgmswbvqm.supabase.co;Database=postgres;Username=postgres;Password=seochoagneis");
-
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) {}
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder
@@ -415,7 +412,7 @@ public partial class PostgresContext : DbContext
                 .HasColumnName("name");
         });
 
-        modelBuilder.Entity<Entities.Supabase.Object>(entity =>
+        modelBuilder.Entity<Domain.Entities.Supabase.Object>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("objects_pkey");
 

@@ -9,3 +9,7 @@ c:\Users\Sebastian Ochoa\Documents\Gneis\GneisApi\Application\obj\Debug\net7.0\A
 c:\Users\Sebastian Ochoa\Documents\Gneis\GneisApi\Application\obj\Debug\net7.0\refint\Application.dll
 c:\Users\Sebastian Ochoa\Documents\Gneis\GneisApi\Application\obj\Debug\net7.0\Application.pdb
 c:\Users\Sebastian Ochoa\Documents\Gneis\GneisApi\Application\obj\Debug\net7.0\ref\Application.dll
+C:\Users\Sebastian Ochoa\Documents\Gneis\GneisApi\Application\bin\Debug\net7.0\Domain.dll
+C:\Users\Sebastian Ochoa\Documents\Gneis\GneisApi\Application\bin\Debug\net7.0\Domain.pdb
+C:\Users\Sebastian Ochoa\Documents\Gneis\GneisApi\Application\obj\Debug\net7.0\Application.csproj.AssemblyReference.cache
+C:\Users\Sebastian Ochoa\Documents\Gneis\GneisApi\Application\obj\Debug\net7.0\Application.csproj.CopyComplete
