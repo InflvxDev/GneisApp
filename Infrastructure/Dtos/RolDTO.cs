@@ -1,6 +1,7 @@
-﻿namespace Web.Dtos
+﻿
+namespace Infrastructure.Dtos
 {
-    public class TipoDTO
+    public class RolDTO
     {
         public long Id { get; set; }
 

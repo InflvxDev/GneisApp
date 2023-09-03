@@ -1,7 +1,9 @@
-﻿namespace Web.Dtos
+﻿namespace Infrastructure.Dtos
 {
     public class ReporteDTO
     {
+        public long Id { get; set; }
+        
         public string? Cedula { get; set; }
 
         public string? FechaRegistro { get; set;}

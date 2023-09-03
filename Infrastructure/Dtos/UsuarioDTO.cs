@@ -1,4 +1,4 @@
-﻿namespace Web.Dtos
+﻿namespace Infrastructure.Dtos
 {
     public class UsuarioDTO
     {
