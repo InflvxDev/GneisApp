@@ -7,6 +7,8 @@ using Infrastructure.DBcontext;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Infrastructure.Repositories.Contracts;
+using Infrastructure.Repositories;
 
 namespace Infrastructure
 {
@@ -17,6 +19,10 @@ namespace Infrastructure
             services.AddDbContext<PostgresContext>(options =>{
                 options.UseNpgsql(configuration.GetConnectionString("cadenaPostgres"));
             });
+
+            services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            services.AddScoped<IReservaRepository, ReservaRepository>();
         }
+
     }
 }

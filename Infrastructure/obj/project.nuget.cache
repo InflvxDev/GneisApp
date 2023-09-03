@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4DhPPxO34/Y3P9kDlN1UyO7fqAFK4EOUXGyMHl5mxXbd5iBGkoMSlWux/0Ww/6+dNoWGAPrTu9sj9F8Vb8n8dQ==",
+  "dgSpecHash": "jDQ+MZLQ1uS2LimvX8j3DBYD/F5Ke7IsIREWbH7lmCEK8+PhrNeshEMI6MT7WqeE6dxveT2sfPVjv+aN3IuwQQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "c:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sebastian Ochoa\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
     "C:\\Users\\Sebastian Ochoa\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.5\\microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",
