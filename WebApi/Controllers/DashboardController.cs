@@ -19,6 +19,7 @@ namespace WebApi.Controllers
         }
 
         [HttpGet]
+        [Route("Resumen")]
         public async Task<IActionResult> Resumen()
         {
             var response = new Response<DashboardDTO>();
