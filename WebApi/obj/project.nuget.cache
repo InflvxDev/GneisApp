@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "QqjeAh4fBRTN8XG2Bn0YpJnksxms6EaWPqpMpk+CtIaWD49X6S9c/L+MQKP7Czi9C7EXFuieC6smXG1OOKyMIQ==",
+  "dgSpecHash": "lJiXVu2sPtPvZedubU6ubNkmx1P8dVsh0Qa//rLL/hBuVZjHp/4o1SsYCJFELCsW61CllfVoUDXuDt7Ks1pQXA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\WebApi\\WebApi.csproj",
+  "projectFilePath": "C:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sebastian Ochoa\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Sebastian Ochoa\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\Sebastian Ochoa\\.nuget\\packages\\dotenv.net\\3.1.2\\dotenv.net.3.1.2.nupkg.sha512",
     "C:\\Users\\Sebastian Ochoa\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
     "C:\\Users\\Sebastian Ochoa\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Sebastian Ochoa\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",

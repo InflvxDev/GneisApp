@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZL6Hm/tDCJB5zFB/69fhKm5Hp6A9D1EqU20JqPvdGDVnGmtsRSzJgNSA100ttDk4mnF6QtKP03h9VKFfT7YwdA==",
+  "dgSpecHash": "vbysszme8qCuewVlvKR4ZcSH8yF1YBWc8QL/bUCle2367LQNYtliTtYvqvCMkmh1sMvtITy5NydXDahqw5EQ/w==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sebastian Ochoa\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Sebastian Ochoa\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

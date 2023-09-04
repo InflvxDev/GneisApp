@@ -44,3 +44,4 @@ C:\Users\Sebastian Ochoa\Documents\Gneis\GneisApi\WebApi\obj\Debug\net7.0\refint
 C:\Users\Sebastian Ochoa\Documents\Gneis\GneisApi\WebApi\obj\Debug\net7.0\WebApi.pdb
 C:\Users\Sebastian Ochoa\Documents\Gneis\GneisApi\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
 C:\Users\Sebastian Ochoa\Documents\Gneis\GneisApi\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+C:\Users\Sebastian Ochoa\Documents\Gneis\GneisApi\WebApi\bin\Debug\net7.0\dotenv.net.dll

@@ -1,5 +1,6 @@
 using Infrastructure;
 using Application;
+using dotenv.net;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,7 +11,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.inyectarDependencias(builder.Configuration);
+DotEnv.Load();
+string cadena = Environment.GetEnvironmentVariable("cadenaPostgres")!;
+
+builder.Services.inyectarDependencias(cadena);
 builder.Services.inyectarDependencias();
 
 builder.Services.AddCors(options =>

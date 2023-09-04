@@ -15,10 +15,10 @@ namespace Infrastructure
 {
     public static class Dependencia
     {
-        public static void inyectarDependencias(this IServiceCollection services, IConfiguration configuration)
+        public static void inyectarDependencias(this IServiceCollection services, String cadenaConexion)
         {
             services.AddDbContext<PostgresContext>(options =>{
-                options.UseNpgsql(configuration.GetConnectionString("cadenaPostgres"));
+                options.UseNpgsql(cadenaConexion);
             });
 
             services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
