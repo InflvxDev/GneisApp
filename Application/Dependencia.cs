@@ -21,6 +21,7 @@ namespace Application
             services.AddScoped<IReservaService , ReservaService>();
             services.AddScoped<ITipoHabitacionService , TipoHabitacionService >();
             services.AddScoped<IUsuarioService , UsuarioService >();
+            services.AddScoped<IClienteService , ClienteService >();
 
         }
 

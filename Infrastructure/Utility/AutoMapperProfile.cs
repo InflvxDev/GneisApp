@@ -77,9 +77,15 @@ namespace Infrastructure.Utility
                 .ForMember(destino =>
                     destino.Precio,
                     opt => opt.MapFrom(origen => Convert.ToDouble(origen.Precio, new CultureInfo("es-CO")))
-                );    
+                );
 
             #endregion Habitacion
+
+            #region Cliente
+
+            CreateMap<Cliente, ClienteDTO>().ReverseMap();
+
+            #endregion Cliente
 
             #region Reserva
 
