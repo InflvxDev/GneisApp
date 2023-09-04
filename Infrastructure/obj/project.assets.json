@@ -307,19 +307,6 @@
           }
         }
       },
-      "Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Application.dll": {}
-        }
-      },
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -827,11 +814,6 @@
         "postgresql.png"
       ]
     },
-    "Application/1.0.0": {
-      "type": "project",
-      "path": "../Application/Application.csproj",
-      "msbuildProject": "../Application/Application.csproj"
-    },
     "Domain/1.0.0": {
       "type": "project",
       "path": "../Domain/Domain.csproj",
@@ -840,9 +822,9 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Application >= 1.0.0",
       "AutoMapper >= 12.0.1",
-      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1"
+      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
+      "Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -872,8 +854,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Application\\Application.csproj": {
-              "projectPath": "c:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Application\\Application.csproj"
+            "c:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Domain\\Domain.csproj": {
+              "projectPath": "c:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Domain\\Domain.csproj"
             }
           }
         }

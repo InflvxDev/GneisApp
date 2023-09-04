@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Ak27hR5lBRfFaFh5EQopqjnwMvrMVdupCiq2XMcBIAliARw8HQAt3a7wjIlewxlHKvCLp6pfap1KGA9OpKf0ow==",
+  "dgSpecHash": "ZL6Hm/tDCJB5zFB/69fhKm5Hp6A9D1EqU20JqPvdGDVnGmtsRSzJgNSA100ttDk4mnF6QtKP03h9VKFfT7YwdA==",
   "success": true,
   "projectFilePath": "c:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Sebastian Ochoa\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Sebastian Ochoa\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\Sebastian Ochoa\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Sebastian Ochoa\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
     "C:\\Users\\Sebastian Ochoa\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.5\\microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",
     "C:\\Users\\Sebastian Ochoa\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.5\\microsoft.entityframeworkcore.analyzers.7.0.5.nupkg.sha512",

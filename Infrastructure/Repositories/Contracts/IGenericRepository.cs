@@ -18,6 +18,6 @@ namespace Infrastructure.Repositories.Contracts
 
         Task<bool> Eliminar(TModel modelo);
 
-        Task<IQueryable<TModel>> Consultar(Expression<Func<TModel, bool>> filtro);
+        Task<IQueryable<TModel>> Consultar(Expression<Func<TModel, bool>> filtro = null);
     }
 }

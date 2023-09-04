@@ -413,19 +413,6 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Application.dll": {}
-        }
-      },
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -443,9 +430,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Application": "1.0.0",
           "AutoMapper": "12.0.1",
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1"
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Infrastructure.dll": {}
@@ -1298,11 +1285,6 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
-    "Application/1.0.0": {
-      "type": "project",
-      "path": "../Application/Application.csproj",
-      "msbuildProject": "../Application/Application.csproj"
-    },
     "Domain/1.0.0": {
       "type": "project",
       "path": "../Domain/Domain.csproj",
@@ -1316,7 +1298,6 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Application >= 1.0.0",
       "Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.10",
       "Swashbuckle.AspNetCore >= 6.5.0"
@@ -1349,9 +1330,6 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Application\\Application.csproj": {
-              "projectPath": "c:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Application\\Application.csproj"
-            },
             "c:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Infrastructure\\Infrastructure.csproj": {
               "projectPath": "c:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Infrastructure\\Infrastructure.csproj"
             }

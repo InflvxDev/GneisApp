@@ -25,6 +25,7 @@ namespace Infrastructure
             services.AddScoped<IReservaRepository, ReservaRepository>();
 
             services.AddAutoMapper(typeof(AutoMapperProfile));
+
         }
 
     }
