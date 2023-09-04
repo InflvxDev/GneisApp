@@ -833,11 +833,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "c:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "c:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Sebastian Ochoa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Infrastructure\\obj\\",
+      "outputPath": "c:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sebastian Ochoa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -854,8 +854,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Domain\\Domain.csproj"
+            "c:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Domain\\Domain.csproj": {
+              "projectPath": "c:\\Users\\Sebastian Ochoa\\Documents\\Gneis\\GneisApi\\Domain\\Domain.csproj"
             }
           }
         }
