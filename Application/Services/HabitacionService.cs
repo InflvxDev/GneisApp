@@ -13,7 +13,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Application.Services
 {
-    internal class HabitacionService : IHabitacionService
+    public class HabitacionService : IHabitacionService
     {
         public readonly IGenericRepository<Habitacion> _repository;
         private readonly IMapper _mapper;
